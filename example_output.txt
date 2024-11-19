@@ -1,0 +1,57 @@
+Loading encrypted results and private context...
+Decrypting results...
+Loading embeddings and query vector...
+Computing plaintext cosine similarities...
+Displaying results...
+
+Results:
+Word: king
+  Decrypted Cosine Similarity^2: 1.0000079388441452
+  Plaintext Cosine Similarity^2: 1.0000001192092896
+  Difference: 0.00000782
+
+Word: kings
+  Decrypted Cosine Similarity^2: 0.7138097492501213
+  Plaintext Cosine Similarity^2: 0.7138045430183411
+  Difference: 0.00000521
+
+Word: queen
+  Decrypted Cosine Similarity^2: 0.6511003001827064
+  Plaintext Cosine Similarity^2: 0.6510956287384033
+  Difference: 0.00000467
+
+Word: monarch
+  Decrypted Cosine Similarity^2: 0.6413241881570986
+  Plaintext Cosine Similarity^2: 0.6413195133209229
+  Difference: 0.00000467
+
+Word: crown_prince
+  Decrypted Cosine Similarity^2: 0.6204265500169579
+  Plaintext Cosine Similarity^2: 0.6204219460487366
+  Difference: 0.00000460
+
+Word: Ritz_Crackers
+  Decrypted Cosine Similarity^2: 0.07365119582617481
+  Plaintext Cosine Similarity^2: 0.07365274429321289
+  Difference: 0.00000155
+
+Word: Europhobic
+  Decrypted Cosine Similarity^2: 0.14388946821737067
+  Plaintext Cosine Similarity^2: 0.1438906192779541
+  Difference: 0.00000115
+
+Word: Mackway_Jones
+  Decrypted Cosine Similarity^2: 0.01231557320176846
+  Plaintext Cosine Similarity^2: 0.01232059020549059
+  Difference: 0.00000502
+
+Word: Blue_Riband
+  Decrypted Cosine Similarity^2: 0.1287502952066225
+  Difference: 0.00000031
+
+Word: Xavier_Musketeers
+  Decrypted Cosine Similarity^2: 0.06253839755260629
+  Plaintext Cosine Similarity^2: 0.06253927946090698
+  Difference: 0.00000088
+
+Decryption and display completed in 5.94 seconds.
