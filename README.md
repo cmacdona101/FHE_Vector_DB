@@ -1,6 +1,8 @@
 # FHE_Vector_DB
 
-An open-source vector database implemented using homomorphic encryption with TenSEAL. This project demonstrates how to securely perform computations on encrypted data, specifically calculating cosine similarities between encrypted word embeddings without revealing the underlying data.
+An open-source vector database implemented using homomorphic encryption with TenSEAL. This project demonstrates how to securely perform computations on encrypted data, specifically calculating cosine similarities between encrypted word embeddings without revealing the underlying data.  As a proof of concept, a vector database of word embeddings is encrypted using a public key.  The user then "queries" the database with a word ("king", for example), which is converted to vector embeddings using Google's Word2Vec engine and likewise encrypted with the public key.  A cosine similarity search is run on the encrypted vector database using the encrypted word embedding, all without decrypting either sets of information.  This can be done via fully homomorphic encryption, which allows some mathematical operations to operate on encrypted data directly without first needing the decryption -> operation -> re-encryption stages.  The final result is passed back to the user as a list of top k results (as well as several low-ranking words for control comparisons in this proof of concept test). 
+
+Please take a look at example_output.txt for the full example.  
 
 ## Table of Contents
 
